@@ -1,0 +1,49 @@
+[Start]
+    |
+    v
+[Resource Identification]
+    |
+    v
+[Resource Monitoring]
+    |
+    v
+[Decision: Does the user need to book a resource?]
+    |                    |
+    | Yes                | No
+    |                    |
+    v                    v
+[Schedule Booking]     [Resource Usage]
+    |                    |
+    v                    v
+[Decision: Is there    [Decision: Has the resource
+ a booking conflict?]    reached the usage threshold?]
+    |                    |
+    | Yes                | Yes
+    |                    |
+    v                    v
+[Notify user and       [Generate maintenance request
+ resolve conflict]      and schedule maintenance]
+    |
+    v
+[No]
+    |
+    v
+[Confirm booking and   [No] 
+ update resource availability] 
+    |
+    v
+[Resource Usage] -----------+
+    |                        |
+    v                        |
+[Decision: Has the resource  |
+ reached the usage threshold?]
+    |                        |
+    | No                     |
+    v                        |
+[Continue Monitoring] <------+
+    |
+    v
+[Usage Reports]
+    |
+    v
+[End]

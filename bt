@@ -1,0 +1,22 @@
+[Start] 
+    |
+    v
+[Bluetooth Device Initialization]
+    |
+    v
+[Student Bluetooth ID Collection] ---> [Store Collected Data]
+    |                                    |
+    v                                    v
+[Monitor Bluetooth Activity]         [Session End]
+    |                                    |
+    v                                    v
+[Detect Unauthorized App Usage]      [Retrieve Stored Data]
+    |                                    |
+    v                                    v
+[Log Unauthorized App Usage]         [Attendance Verification]
+    |                                    |
+    v                                    v
+[Discipline Monitoring] ---> [Generate Reports]
+    |                                    |
+    v                                    v
+[Display Results]                   [End]

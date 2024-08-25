@@ -1,0 +1,49 @@
+[Start]
+    |
+    v
+[App Initialization]
+    |
+    |---> [App starts and connects to the smart board or interactive display]
+    |
+    v
+[Content Synchronization]
+    |
+    |---> [App recognizes the content displayed on the board]
+    |
+    |---> [App matches the content with its own database]
+    |
+    |---> [App adapts its interface and features accordingly]
+    |
+    v
+[Interactive Elements]
+    |
+    |---> [User interacts with the app (e.g., annotations, quizzes)]
+    |
+    |---> [App processes user input and updates the display]
+    |
+    v
+[Student Engagement Tracking]
+    |
+    |---> [App monitors student interactions with the app]
+    |
+    |---> [App collects data on student behavior and performance]
+    |
+    v
+[Real-time Feedback]
+    |
+    |---> [App provides immediate feedback to students based on their actions]
+    |
+    v
+[Analytics and Reporting]
+    |
+    |---> [App stores data in the database]
+    |
+    |---> [App generates reports on student engagement and performance]
+    |
+    v
+[Personalization]
+    |
+    |---> [App uses analytics to personalize the learning experience for each student]
+    |
+    v
+[End]
